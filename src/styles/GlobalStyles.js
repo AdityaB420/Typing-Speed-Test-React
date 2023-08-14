@@ -154,6 +154,7 @@ body {
   width: 1000px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
