@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { TestModeContextProvider } from './Context/TestModeContext';
 import { ThemeContextProvider } from './Context/ThemeContext';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <TestModeContextProvider>
     <ThemeContextProvider>
+      <BrowserRouter>
           <App />
+      </BrowserRouter>
     </ThemeContextProvider>
   </TestModeContextProvider>
 );

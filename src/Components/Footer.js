@@ -24,7 +24,7 @@ const Footer = ()=>{
                     menuPlacement="top"
                     defaultValue={{ label: theme.label, value: theme }}
                     styles={{
-                        control: styles => ({ ...styles, backgroundColor: theme.textColor }),
+                        control: styles => ({ ...styles, backgroundColor: theme.background }),
                         menu: styles => ({ ...styles, backgroundColor: theme.background }),
                         option: (styles, { isFocused }) => {
                             return {
