@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { createGlobalStyle } from 'styled-components';
 
 
@@ -157,6 +157,7 @@ body {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
 }
 .userProfile {
   width: 1000px;
